@@ -1,0 +1,15 @@
+:root {
+  font-family: "Vazir", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
+}
+body{
+  max-width: 1200px;
+  min-height:95vh ;
+  margin: auto;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+

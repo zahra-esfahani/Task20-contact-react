@@ -1,0 +1,62 @@
+.parent {
+  width: 80%;
+  margin: auto;
+  border: 2px solid green;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+.parent h2 {
+  text-align: center;
+  margin-top: 20px;
+}
+.inputParent {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 50px;
+  margin-top: 10px;
+}
+input {
+  width: 42%;
+  padding: 10px;
+  margin-top: 20px;
+  border: 2px solid green;
+  border-radius: 5px;
+}
+.button {
+  width: 42%;
+  padding: 10px;
+  margin-top: 50px;
+  border: 2px solid green;
+  border-radius: 5px;
+  border: none;
+  background-color: green;
+  cursor: pointer;
+}
+input:focus {
+  outline: none;
+  box-shadow: none;
+}
+.dataParent {
+  width: 30%;
+  padding: 30px;
+  border: 2px dashed green;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+}
+.modal {
+
+  display: none;
+}
+.modalOn{
+    display: inline-block;
+    position: absolute;
+    top: 5%;
+    right: 0;
+    width: 15%;
+    padding: 20px;
+    border: 1px solid green;
+    background-color: rgb(98, 152, 98);
+}
