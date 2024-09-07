@@ -1,0 +1,33 @@
+.parent {
+  position: fixed;
+  backdrop-filter: blur(3px);
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.parent div {
+  text-align: center;
+  width: 50%;
+  height: 50%;
+  background-color: rgba(48, 147, 48, 0.933);
+  border-radius: 10px;
+}
+.parent div button {
+  width: 22%;
+  padding: 10px;
+  margin-top: 80px;
+  border: 2px solid green;
+  border-radius: 5px;
+  border: none;
+  background-color: green;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.parent div h2 {
+  margin-top: 50px;
+}
