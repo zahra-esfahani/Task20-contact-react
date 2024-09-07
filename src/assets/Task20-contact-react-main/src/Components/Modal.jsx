@@ -46,7 +46,7 @@ function Modal({
             >
               ذخیره تغییرات
             </button>
-            <button onClick={()=>setClickEditModal(false)}>انصراف</button>
+            <button onClick={closeModal}>انصراف</button>
           </>
         )}
 

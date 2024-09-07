@@ -1,0 +1,49 @@
+.container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgba(0, 128, 0, 0.661);
+  height: 40px;
+  align-items: center;
+  border-radius: 10px;
+}
+.input {
+  width: 42%;
+  padding: 5px;
+  margin-bottom: 20px;
+  border: 2px solid green;
+  border-radius: 5px;
+}
+.norButton{
+  width: 50px;
+  padding: 5px;
+  margin-right: 5px;
+  border: 2px solid green;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(255, 0, 0);
+  cursor: pointer;
+}
+.diffButton{
+  width: 50px;
+  padding: 5px;
+  margin-right: 5px;
+  border: 2px solid green;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.selectButton{
+  background-color: rgba(0, 128, 0, 0.762);
+  width: 50px;
+  padding: 5px;
+  margin-right: 5px;
+  border: 2px solid green;
+  border-radius: 5px;
+  border: none;
+}
